@@ -44,13 +44,12 @@ class Testarchive():
         "testcasename, action, connectionType, NNE_enabled, LoginType, status, databaseType, host, port, username, psswrd, databaseName, excepetd_statuscode",
         data_pass.metadata_test_connection,ids=[tc[0] for tc in data_pass.metadata_test_connection]  # Using test case name for readability in reports 
         )
-    def test_add_metadata(self, testcasename, action, connectionType, NNE_enabled, LoginType, status, databaseType, host, port, username, psswrd, databaseName, excepetd_statuscode,request):
+    def test_add_metadata(self, testcasename, action, connectionType, NNE_enabled, LoginType, status, databaseType, host, port, username, psswrd, databaseName, excepetd_statuscode):
         # Generate query parameters and JSON body separately
        params = Payload.meta_data_params(action, connectionType, NNE_enabled, LoginType, status)
        body = Payload.meta_data_body(databaseType, host, port, username, psswrd, databaseName)  
     # Send API request
        metadata_response = call_method.test_post_method("v1/meta-data", params=params, json=body)
-    #    print(metadata_response.json())
        log_request_response(metadata_response,request_body=body)
        assert metadata_response.status_code == excepetd_statuscode
 
