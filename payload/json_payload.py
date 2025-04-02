@@ -23,4 +23,13 @@ class Payload:
                     "databaseName": databaseName
 
         }
-        
+    
+    @staticmethod
+    def Super_user_payload(loginType,name,username,psswrd,email):
+        return{
+            "loginType": loginType,
+            "fullname": name,
+            "username": username,
+            "psswrd": psswrd,
+            "email": email
+     }
