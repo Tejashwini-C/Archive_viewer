@@ -1,0 +1,770 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8"/>
+    <title id="head-title">reports_25-04-03_14-03-50.html</title>
+      <link href="assets\style.css" rel="stylesheet" type="text/css"/>
+  </head>
+  <body>
+    <h1 id="title">reports_25-04-03_14-03-50.html</h1>
+    <p>Report generated on 03-Apr-2025 at 14:04:08 by <a href="https://pypi.python.org/pypi/pytest-html">pytest-html</a>
+        v4.1.1</p>
+    <div id="environment-header">
+      <h2>Environment</h2>
+    </div>
+    <table id="environment"></table>
+    <!-- TEMPLATES -->
+      <template id="template_environment_row">
+      <tr>
+        <td></td>
+        <td></td>
+      </tr>
+    </template>
+    <template id="template_results-table__body--empty">
+      <tbody class="results-table-row">
+        <tr id="not-found-message">
+          <td colspan="4">No results found. Check the filters.</th>
+        </tr>
+    </template>
+    <template id="template_results-table__tbody">
+      <tbody class="results-table-row">
+        <tr class="collapsible">
+        </tr>
+        <tr class="extras-row">
+          <td class="extra" colspan="4">
+            <div class="extraHTML"></div>
+            <div class="media">
+              <div class="media-container">
+                  <div class="media-container__nav--left"><</div>
+                  <div class="media-container__viewport">
+                    <img src="" />
+                    <video controls>
+                      <source src="" type="video/mp4">
+                    </video>
+                  </div>
+                  <div class="media-container__nav--right">></div>
+                </div>
+                <div class="media__name"></div>
+                <div class="media__counter"></div>
+            </div>
+            <div class="logwrapper">
+              <div class="logexpander"></div>
+              <div class="log"></div>
+            </div>
+          </td>
+        </tr>
+      </tbody>
+    </template>
+    <!-- END TEMPLATES -->
+    <div class="summary">
+      <div class="summary__data">
+        <h2>Summary</h2>
+        <div class="additional-summary prefix">
+        </div>
+        <p class="run-count">59 tests took 00:00:17.</p>
+        <p class="filter">(Un)check the boxes to filter the results.</p>
+        <div class="summary__reload">
+          <div class="summary__reload__button hidden" onclick="location.reload()">
+            <div>There are still tests running. <br />Reload this page to get the latest results!</div>
+          </div>
+        </div>
+        <div class="summary__spacer"></div>
+        <div class="controls">
+          <div class="filters">
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="failed" />
+            <span class="failed">4 Failed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="passed" />
+            <span class="passed">55 Passed,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="skipped" disabled/>
+            <span class="skipped">0 Skipped,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xfailed" disabled/>
+            <span class="xfailed">0 Expected failures,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="xpassed" disabled/>
+            <span class="xpassed">0 Unexpected passes,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="error" disabled/>
+            <span class="error">0 Errors,</span>
+            <input checked="true" class="filter" name="filter_checkbox" type="checkbox" data-test-result="rerun" disabled/>
+            <span class="rerun">0 Reruns</span>
+          </div>
+          <div class="collapse">
+            <button id="show_all_details">Show all details</button>&nbsp;/&nbsp;<button id="hide_all_details">Hide all details</button>
+          </div>
+        </div>
+      </div>
+      <div class="additional-summary summary">
+      </div>
+      <div class="additional-summary postfix">
+      </div>
+    </div>
+    <table id="results-table">
+      <thead id="results-table-head">
+        <tr>
+          <th class="sortable" data-column-type="result">Result</th>
+          <th class="sortable" data-column-type="testId">Test</th>
+          <th class="sortable" data-column-type="duration">Duration</th>
+          <th>Links</th>
+        </tr>
+      </thead>
+    </table>
+  </body>
+  <footer>
+    <div id="data-container" data-jsonblob="{&#34;environment&#34;: {&#34;Python&#34;: &#34;3.13.2&#34;, &#34;Platform&#34;: &#34;Windows-11-10.0.22000-SP0&#34;, &#34;Packages&#34;: {&#34;pytest&#34;: &#34;8.3.5&#34;, &#34;pluggy&#34;: &#34;1.5.0&#34;}, &#34;Plugins&#34;: {&#34;allure-pytest&#34;: &#34;2.13.5&#34;, &#34;html&#34;: &#34;4.1.1&#34;, &#34;html-reporter&#34;: &#34;0.2.9&#34;, &#34;metadata&#34;: &#34;3.1.1&#34;, &#34;xdist&#34;: &#34;3.6.1&#34;}}, &#34;tests&#34;: {&#34;test_api.py::Testarchive::test_health_check&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_health_check&#34;, &#34;duration&#34;: &#34;62 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_health_check&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;62 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;---------------------------- Captured stdout setup -----------------------------\nstarting..........\n\n----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Server is up&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_meta_data&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_meta_data&#34;, &#34;duration&#34;: &#34;58 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_meta_data&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;58 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: false,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_metadata_info&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_metadata_info&#34;, &#34;duration&#34;: &#34;100 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_metadata_info&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;100 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Metadata Information Fetched Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: null,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_superuser_status&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_superuser_status&#34;, &#34;duration&#34;: &#34;51 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_superuser_status&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;51 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 404\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Datatype or Database Information Is Either Missing or Invalid.&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 404,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;404-Y&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_app_preferences&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_app_preferences&#34;, &#34;duration&#34;: &#34;53 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_app_preferences&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;53 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 404\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Datatype or Database Information Is Either Missing or Invalid.&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 404,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;404-Y&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding&#34;, &#34;duration&#34;: &#34;56 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;56 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 404\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Datatype or Database Information Is Either Missing or Invalid.&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 404,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;404-Y&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_databasetype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_databasetype]&#34;, &#34;duration&#34;: &#34;46 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_databasetype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;46 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;invalid&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to Invalid Database type&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;422-D&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_host]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_host]&#34;, &#34;duration&#34;: &#34;50 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_host]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;50 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.1764&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to [Errno -2] Name or service not known&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_port]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_port]&#34;, &#34;duration&#34;: &#34;91 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_port]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;91 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 15921,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=FBg2b43UOLg+YijEP2kQYg==).\\n[Errno 111] Connection refused\\n(Background on this error at: https://sqlalche.me/e/20/e3q8)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_username]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_username]&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_username]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;mestadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.DatabaseError) ORA-01017: invalid username/password; logon denied\\nHelp: https://docs.oracle.com/error-help/db/ora-01017/\\n(Background on this error at: https://sqlalche.me/e/20/4xp6)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_password]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_password]&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_password]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadddb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.DatabaseError) ORA-01017: invalid username/password; logon denied\\nHelp: https://docs.oracle.com/error-help/db/ora-01017/\\n(Background on this error at: https://sqlalche.me/e/20/4xp6)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_database-name]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_database-name]&#34;, &#34;duration&#34;: &#34;54 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[incorrect_database-name]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;54 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orrtcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=1v560KHl/HHu96RQcf/RaA==).\\nDPY-6001: Service \\&amp;quot;orrtcl\\&amp;quot; is not registered with the listener at host \\&amp;quot;192.168.0.174\\&amp;quot; port 1521. (Similar to ORA-12514)\\n(Background on this error at: https://sqlalche.me/e/20/e3q8)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-action]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-action]&#34;, &#34;duration&#34;: &#34;53 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-action]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;53 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testCottection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid action&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-connectiontype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-connectiontype]&#34;, &#34;duration&#34;: &#34;45 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[invalid-connectiontype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;45 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Servicevd Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid Connection Type&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_test_connection[Success]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_test_connection[Success]&#34;, &#34;duration&#34;: &#34;50 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_test_connection[Success]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;50 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;testConnection&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot; &amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;db2&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: 25010,\n    &amp;quot;username&amp;quot;: &amp;quot;db2inst1&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;db2inst1&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;archive&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection is Successful&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_databasetype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_databasetype]&#34;, &#34;duration&#34;: &#34;39 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_databasetype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;39 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;invalid&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to Invalid Database type&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;422-D&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_host]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_host]&#34;, &#34;duration&#34;: &#34;54 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_host]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;54 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.1764&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to [Errno -2] Name or service not known&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_port]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_port]&#34;, &#34;duration&#34;: &#34;50 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_port]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;50 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 15921,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=OXrKyUvuqwAmEfGNYT33XQ==).\\n[Errno 111] Connection refused\\n(Background on this error at: https://sqlalche.me/e/20/e3q8)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_username]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_username]&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_username]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;mestadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.DatabaseError) ORA-01017: invalid username/password; logon denied\\nHelp: https://docs.oracle.com/error-help/db/ora-01017/\\n(Background on this error at: https://sqlalche.me/e/20/4xp6)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_password]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_password]&#34;, &#34;duration&#34;: &#34;00:00:02&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_password]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:02&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadddb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.DatabaseError) ORA-01017: invalid username/password; logon denied\\nHelp: https://docs.oracle.com/error-help/db/ora-01017/\\n(Background on this error at: https://sqlalche.me/e/20/4xp6)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_database-name]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_database-name]&#34;, &#34;duration&#34;: &#34;58 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[incorrect_database-name]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;58 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orrtcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Connection Refused due to (oracledb.exceptions.OperationalError) DPY-6005: cannot connect to database (CONNECTION_ID=KVvU+3LkvmkVklrIKE0L+A==).\\nDPY-6001: Service \\&amp;quot;orrtcl\\&amp;quot; is not registered with the listener at host \\&amp;quot;192.168.0.174\\&amp;quot; port 1521. (Similar to ORA-12514)\\n(Background on this error at: https://sqlalche.me/e/20/e3q8)&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-action]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-action]&#34;, &#34;duration&#34;: &#34;43 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-action]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;43 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createssTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Service Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid action&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-connectiontype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-connectiontype]&#34;, &#34;duration&#34;: &#34;70 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-connectiontype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;70 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Servicevd Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid Connection Type&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-status]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-status]&#34;, &#34;duration&#34;: &#34;47 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[invalid-status]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;47 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;Servicevd Name&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;dop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;Oracle&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.174&amp;quot;,\n    &amp;quot;port&amp;quot;: 1521,\n    &amp;quot;username&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;metadb&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;orcl&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid Connection Type&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_metadata_create_tables[Success]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_metadata_create_tables[Success]&#34;, &#34;duration&#34;: &#34;00:00:03&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_metadata_create_tables[Success]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;00:00:03&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;action&amp;quot;: &amp;quot;createTables&amp;quot;,\n    &amp;quot;connectionType&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;NNE_enabled&amp;quot;: false,\n    &amp;quot;LoginType&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;status&amp;quot;: &amp;quot;drop&amp;quot;\n}\nBody:\n{\n    &amp;quot;databaseType&amp;quot;: &amp;quot;db2&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: 25010,\n    &amp;quot;username&amp;quot;: &amp;quot;db2inst1&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;db2inst1&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;archive&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Existing Tables Dropped and New Tables are Created&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-logintype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-logintype]&#34;, &#34;duration&#34;: &#34;72 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[invalid-logintype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;72 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASTC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super@123&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Not a valid logintype&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-name]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-name]&#34;, &#34;duration&#34;: &#34;80 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[invalid-name]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;80 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASIC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super@123&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;fullname&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for fullname&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot; &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-Username]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-Username]&#34;, &#34;duration&#34;: &#34;70 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[invalid-Username]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;70 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASIC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super@123&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_too_short&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;username&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;String should have at least 4 characters&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot; &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;min_length&amp;quot;: 4\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-passwrd]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-passwrd]&#34;, &#34;duration&#34;: &#34;71 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[invalid-passwrd]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;71 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASIC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super**&amp;amp;^#$&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;psswrd&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for psswrd&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;Super**&amp;amp;^#$&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-email]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[invalid-email]&#34;, &#34;duration&#34;: &#34;85 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[invalid-email]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;85 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASIC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super@123&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail_com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;email&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for email&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;super@gmail_com&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_authentication[valid-details]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_authentication[valid-details]&#34;, &#34;duration&#34;: &#34;133 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_authentication[valid-details]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;133 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nBody:\n{\n    &amp;quot;loginType&amp;quot;: &amp;quot;BASIC&amp;quot;,\n    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;Super&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;Super@123&amp;quot;,\n    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;data&amp;quot;: {\n            &amp;quot;access_token&amp;quot;: &amp;quot;eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiIxIiwiZXhwIjoxNzQzNjcxMDQ1LCJpYXQiOjE3NDM2NjkyNDUsInNjb3BlIjoiYWNjZXNzX3Rva2VuIn0.LUN6JDJn8Ip_Z-VQ-J1S8JO_0wbqi4yz38XSOl_e0xE&amp;quot;\n        },\n        &amp;quot;message&amp;quot;: &amp;quot;User Details Added Successfully&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_onboarding_with_auth&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_onboarding_with_auth&#34;, &#34;duration&#34;: &#34;85 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_onboarding_with_auth&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;85 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Data Fetched Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;login_type&amp;quot;: &amp;quot;BASIC&amp;quot;,\n                &amp;quot;user_details&amp;quot;: {\n                    &amp;quot;id&amp;quot;: &amp;quot;1&amp;quot;,\n                    &amp;quot;fullname&amp;quot;: &amp;quot;Super&amp;quot;,\n                    &amp;quot;username&amp;quot;: &amp;quot;super&amp;quot;,\n                    &amp;quot;email&amp;quot;: &amp;quot;super@gmail.com&amp;quot;\n                },\n                &amp;quot;storage_details&amp;quot;: [],\n                &amp;quot;convertserver_details&amp;quot;: [],\n                &amp;quot;queryserver_details&amp;quot;: null,\n                &amp;quot;superset_url&amp;quot;: null\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl0]&#34;, &#34;duration&#34;: &#34;72 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;72 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;skip&amp;quot;: &amp;quot;false&amp;quot;\n}\nBody:\n{\n    &amp;quot;superseturl&amp;quot;: &amp;quot; &amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 400\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid URL format&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 400,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;400-A&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl1]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl1]&#34;, &#34;duration&#34;: &#34;78 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_Storesuperseturl[invalid-superseturl1]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;78 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;skip&amp;quot;: &amp;quot;true&amp;quot;\n}\nBody:\n{\n    &amp;quot;superseturl&amp;quot;: &amp;quot; &amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Adding superset_url Details Skipped by User&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[all_empty]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[all_empty]&#34;, &#34;duration&#34;: &#34;68 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[all_empty]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;68 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_too_short&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;name&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;String should have at least 1 character&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;min_length&amp;quot;: 1\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_too_short&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;path&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;String should have at least 5 characters&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;min_length&amp;quot;: 5\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;bool_parsing&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;saveFlag&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Input should be a valid boolean, unable to interpret input&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;&amp;quot;\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[invalid_storageType]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[invalid_storageType]&#34;, &#34;duration&#34;: &#34;79 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[invalid_storageType]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;79 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;test_api.Testarchive object at 0x000002654CE404B0&amp;gt;, testcasename = &amp;#x27;invalid_storageType&amp;#x27;, storageType = &amp;#x27;window&amp;#x27;, name = &amp;#x27;Archive_files&amp;#x27;, locationType = &amp;#x27;archiveFileLocation&amp;#x27;, mountPath = &amp;#x27;mountPath&amp;#x27;\npath = &amp;#x27;/home/archive/API_Automation/Archive_files/&amp;#x27;, UNC_path = &amp;#x27;UNC_path&amp;#x27;, storageProtocol = &amp;#x27;storageProtocol&amp;#x27;, saveFlag = &amp;#x27;False&amp;#x27;, excepetd_statuscode = 422\n\n    @pytest.mark.parametrize(\n        &amp;quot;testcasename,storageType,name,locationType,mountPath,path,UNC_path,storageProtocol,saveFlag,excepetd_statuscode&amp;quot;,\n        data_pass.add_storgae,ids=[tc[0] for tc in data_pass.add_storgae]  # Using test case name for readability in reports\n        )\n    def test_add_storage(self,testcasename,storageType,name,locationType,mountPath,path,UNC_path,storageProtocol,saveFlag,excepetd_statuscode):\n        params=Payload.add_storage_params(storageType)\n        body=Payload.add_storage_body(name,locationType,mountPath,path,UNC_path,storageProtocol,saveFlag)\n        add_storage_response=call_method.test_post_method(&amp;quot;/v1/manage-storage&amp;quot;,params=params,json=body)\n        log_request_response(add_storage_response,request_body=body,params=params)\n&amp;gt;       assert add_storage_response.status_code==excepetd_statuscode\nE       assert 200 == 422\nE        +  where 200 = &amp;lt;Response [200]&amp;gt;.status_code\n\ntest_api.py:118: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;window&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Archive_files&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archiveFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;False&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Details Fetched Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            null\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[empty_storagename]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[empty_storagename]&#34;, &#34;duration&#34;: &#34;69 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[empty_storagename]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;69 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot; &amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archiveFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;False&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;name&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for name&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot; &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[Invalid_locationType]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[Invalid_locationType]&#34;, &#34;duration&#34;: &#34;87 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[Invalid_locationType]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;87 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Archive_files&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archive_FileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;False&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Invalid locationType&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 422,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;422-A&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[Invalid_path]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[Invalid_path]&#34;, &#34;duration&#34;: &#34;71 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[Invalid_path]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;71 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Archive_files&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archiveFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;__/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;False&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;path&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for path&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;__/home/archive/API_Automation/Archive_files/&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[saveflas_true]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[saveflas_true]&#34;, &#34;duration&#34;: &#34;83 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[saveflas_true]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;83 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Archive_files&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archiveFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;False&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Details Fetched Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;name&amp;quot;: &amp;quot;archive_files&amp;quot;,\n                &amp;quot;locationType&amp;quot;: [\n                    &amp;quot;archiveFileLocation&amp;quot;\n                ],\n                &amp;quot;mountPath&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                &amp;quot;UNC_path&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n                &amp;quot;storageProtocol&amp;quot;: &amp;quot;local&amp;quot;\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[valid_archive]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[valid_archive]&#34;, &#34;duration&#34;: &#34;93 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[valid_archive]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;93 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Archive_files&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;archiveFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;True&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Data Added Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;archive_files&amp;quot;: {\n                    &amp;quot;locationType&amp;quot;: [\n                        &amp;quot;archiveFileLocation&amp;quot;\n                    ],\n                    &amp;quot;mountPath&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n                    &amp;quot;UNC_path&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;storageProtocol&amp;quot;: &amp;quot;local&amp;quot;\n                }\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[valid_csv]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[valid_csv]&#34;, &#34;duration&#34;: &#34;86 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[valid_csv]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;86 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Csv_storage&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;csvFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Csv_storage/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;True&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Data Added Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;csv_storage&amp;quot;: {\n                    &amp;quot;locationType&amp;quot;: [\n                        &amp;quot;csvFileLocation&amp;quot;\n                    ],\n                    &amp;quot;mountPath&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Csv_storage/&amp;quot;,\n                    &amp;quot;UNC_path&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;storageProtocol&amp;quot;: &amp;quot;local&amp;quot;\n                }\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_add_storage[valid_parquet]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_add_storage[valid_parquet]&#34;, &#34;duration&#34;: &#34;79 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_add_storage[valid_parquet]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;79 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;\n}\nBody:\n{\n    &amp;quot;name&amp;quot;: &amp;quot;Parquet_storage&amp;quot;,\n    &amp;quot;locationType&amp;quot;: [\n        &amp;quot;parquetFileLocation&amp;quot;\n    ],\n    &amp;quot;mountPath&amp;quot;: &amp;quot;mountPath&amp;quot;,\n    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Parquet_storage/&amp;quot;,\n    &amp;quot;UNC_path&amp;quot;: &amp;quot;UNC_path&amp;quot;,\n    &amp;quot;storageProtocol&amp;quot;: &amp;quot;storageProtocol&amp;quot;,\n    &amp;quot;saveFlag&amp;quot;: &amp;quot;True&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Data Added Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;parquet_storage&amp;quot;: {\n                    &amp;quot;locationType&amp;quot;: [\n                        &amp;quot;parquetFileLocation&amp;quot;\n                    ],\n                    &amp;quot;mountPath&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Parquet_storage/&amp;quot;,\n                    &amp;quot;UNC_path&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                    &amp;quot;storageProtocol&amp;quot;: &amp;quot;local&amp;quot;\n                }\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_fetch_storage[invalid_storageId]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_fetch_storage[invalid_storageId]&#34;, &#34;duration&#34;: &#34;69 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_fetch_storage[invalid_storageId]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;69 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageId&amp;quot;: &amp;quot; &amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;int_parsing&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;query&amp;quot;,\n                &amp;quot;storageId&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Input should be a valid integer, unable to parse string as an integer&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot; &amp;quot;\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_fetch_storage[valid_storageId]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_fetch_storage[valid_storageId]&#34;, &#34;duration&#34;: &#34;120 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_fetch_storage[valid_storageId]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;120 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;storageId&amp;quot;: &amp;quot;1&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Details Fetched Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;storageId&amp;quot;: 1,\n                &amp;quot;storageType&amp;quot;: &amp;quot;local&amp;quot;,\n                &amp;quot;name&amp;quot;: &amp;quot;archive_files&amp;quot;,\n                &amp;quot;locationType&amp;quot;: [\n                    &amp;quot;archiveFileLocation&amp;quot;\n                ],\n                &amp;quot;mountPath&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                &amp;quot;path&amp;quot;: &amp;quot;/home/archive/API_Automation/Archive_files/&amp;quot;,\n                &amp;quot;UNC_path&amp;quot;: &amp;quot;unmounted&amp;quot;,\n                &amp;quot;storageProtocol&amp;quot;: &amp;quot;local&amp;quot;\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-platformType0]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-platformType0]&#34;, &#34;duration&#34;: &#34;154 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-platformType0]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;154 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;conver&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: &amp;quot;2&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-optimServerName]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-optimServerName]&#34;, &#34;duration&#34;: &#34;76 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-optimServerName]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;76 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: 56842,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: &amp;quot;2&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_type&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Input should be a valid string&amp;quot;,\n            &amp;quot;input&amp;quot;: 56842\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-optimDirectory]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-optimDirectory]&#34;, &#34;duration&#34;: &#34;77 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-optimDirectory]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;77 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIRde3q223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: &amp;quot;2&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_too_long&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;String should have at most 12 characters&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIRde3q223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;max_length&amp;quot;: 12\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-psthomePath]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-psthomePath]&#34;, &#34;duration&#34;: &#34;78 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-psthomePath]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;78 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/postgres/IBM/InfoSphere//Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: &amp;quot;2&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;psthomePath&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for psthomePath&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;/home/postgres/IBM/InfoSphere//Optim/rt/&amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-defaultQualifier]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-defaultQualifier]&#34;, &#34;duration&#34;: &#34;77 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-defaultQualifier]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;77 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRCs356223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: &amp;quot;2&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-storageId]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-storageId]&#34;, &#34;duration&#34;: &#34;73 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-storageId]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;73 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: 24\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_convert_server[invalid-platformType1]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_convert_server[invalid-platformType1]&#34;, &#34;duration&#34;: &#34;77 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_convert_server[invalid-platformType1]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;77 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;platformType&amp;quot;: &amp;quot;linux&amp;quot;\n}\nBody:\n{\n    &amp;quot;optimServerName&amp;quot;: &amp;quot;server208 &amp;quot;,\n    &amp;quot;optimDirectory&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n    &amp;quot;psthomePath&amp;quot;: &amp;quot;/home/archive/IBM/InfoSphere/Optim/rt/&amp;quot;,\n    &amp;quot;defaultQualifier&amp;quot;: &amp;quot;OPTIMSRC223.optimsrc&amp;quot;,\n    &amp;quot;storageId&amp;quot;: 2\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimServerName&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;server208 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        },\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;value_error&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;optimDirectory&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Value error, Invalid input for optimDirectory&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;OPTIMDIR223 &amp;quot;,\n            &amp;quot;ctx&amp;quot;: {\n                &amp;quot;error&amp;quot;: {}\n            }\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[invalid_catalogtype]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[invalid_catalogtype]&#34;, &#34;duration&#34;: &#34;78 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[invalid_catalogtype]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;78 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;test_api.Testarchive object at 0x000002654CE40DC0&amp;gt;, testcasename = &amp;#x27;invalid_catalogtype&amp;#x27;, catalogType = &amp;#x27;invald&amp;#x27;, skip = False, ssl = False, queryServerName = &amp;#x27;Server208&amp;#x27;, databaseName = &amp;#x27;databaseName&amp;#x27;\nhost = &amp;#x27;192.168.0.208&amp;#x27;, port = &amp;#x27;10000&amp;#x27;, username = &amp;#x27;anything&amp;#x27;, psswrd = &amp;#x27;anything&amp;#x27;, excepetd_statuscode = 422\n\n    @pytest.mark.parametrize(&amp;quot;testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode&amp;quot;,\n        data_pass.query_server,ids=[tc[0] for tc in data_pass.query_server]\n        )\n    def test_query_server(self,testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode):\n        params=Payload.query_server_params(catalogType,skip,ssl)\n        body=Payload.query_server_body(queryServerName,databaseName,host,port,username,psswrd)\n        query_server_response=call_method.test_post_method(&amp;quot;/v1/query-server&amp;quot;,params=params,json=body)\n        log_request_response(query_server_response,request_body=body,params=params)\n&amp;gt;       assert query_server_response.status_code==excepetd_statuscode\nE       assert 200 == 422\nE        +  where 200 = &amp;lt;Response [200]&amp;gt;.status_code\n\ntest_api.py:147: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;invald&amp;quot;,\n    &amp;quot;skip&amp;quot;: false,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\nnull\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[invalid_skip]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[invalid_skip]&#34;, &#34;duration&#34;: &#34;74 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[invalid_skip]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;74 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: &amp;quot;hyiue&amp;quot;,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;bool_parsing&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;query&amp;quot;,\n                &amp;quot;skip&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Input should be a valid boolean, unable to interpret input&amp;quot;,\n            &amp;quot;input&amp;quot;: &amp;quot;hyiue&amp;quot;\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[invalid_queryServerName]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[invalid_queryServerName]&#34;, &#34;duration&#34;: &#34;69 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[invalid_queryServerName]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;69 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: false,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: 4543,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 422\nBody:\n{\n    &amp;quot;detail&amp;quot;: [\n        {\n            &amp;quot;type&amp;quot;: &amp;quot;string_type&amp;quot;,\n            &amp;quot;loc&amp;quot;: [\n                &amp;quot;body&amp;quot;,\n                &amp;quot;queryServerName&amp;quot;\n            ],\n            &amp;quot;msg&amp;quot;: &amp;quot;Input should be a valid string&amp;quot;,\n            &amp;quot;input&amp;quot;: 4543\n        }\n    ]\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[invalid_host]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[invalid_host]&#34;, &#34;duration&#34;: &#34;103 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[invalid_host]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;103 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;test_api.Testarchive object at 0x000002654CE40FF0&amp;gt;, testcasename = &amp;#x27;invalid_host&amp;#x27;, catalogType = &amp;#x27;spark&amp;#x27;, skip = False, ssl = False, queryServerName = &amp;#x27;Server208&amp;#x27;, databaseName = &amp;#x27;databaseName&amp;#x27;\nhost = &amp;#x27;192.168.0.2098&amp;#x27;, port = &amp;#x27;10000&amp;#x27;, username = &amp;#x27;anything&amp;#x27;, psswrd = &amp;#x27;anything&amp;#x27;, excepetd_statuscode = 422\n\n    @pytest.mark.parametrize(&amp;quot;testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode&amp;quot;,\n        data_pass.query_server,ids=[tc[0] for tc in data_pass.query_server]\n        )\n    def test_query_server(self,testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode):\n        params=Payload.query_server_params(catalogType,skip,ssl)\n        body=Payload.query_server_body(queryServerName,databaseName,host,port,username,psswrd)\n        query_server_response=call_method.test_post_method(&amp;quot;/v1/query-server&amp;quot;,params=params,json=body)\n        log_request_response(query_server_response,request_body=body,params=params)\n&amp;gt;       assert query_server_response.status_code==excepetd_statuscode\nE       assert 404 == 422\nE        +  where 404 = &amp;lt;Response [404]&amp;gt;.status_code\n\ntest_api.py:147: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: false,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.2098&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 404\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;%d format: a number is required, not str&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 404,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;404-C&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[invalid_port]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Failed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[invalid_port]&#34;, &#34;duration&#34;: &#34;170 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Failed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[invalid_port]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;170 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;self = &amp;lt;test_api.Testarchive object at 0x000002654CE410E0&amp;gt;, testcasename = &amp;#x27;invalid_port&amp;#x27;, catalogType = &amp;#x27;spark&amp;#x27;, skip = False, ssl = False, queryServerName = &amp;#x27;Server208&amp;#x27;, databaseName = &amp;#x27;databaseName&amp;#x27;\nhost = &amp;#x27;192.168.0.208&amp;#x27;, port = &amp;#x27;150000&amp;#x27;, username = &amp;#x27;anything&amp;#x27;, psswrd = &amp;#x27;anything&amp;#x27;, excepetd_statuscode = 422\n\n    @pytest.mark.parametrize(&amp;quot;testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode&amp;quot;,\n        data_pass.query_server,ids=[tc[0] for tc in data_pass.query_server]\n        )\n    def test_query_server(self,testcasename,catalogType,skip,ssl,queryServerName,databaseName,host,port,username,psswrd,excepetd_statuscode):\n        params=Payload.query_server_params(catalogType,skip,ssl)\n        body=Payload.query_server_body(queryServerName,databaseName,host,port,username,psswrd)\n        query_server_response=call_method.test_post_method(&amp;quot;/v1/query-server&amp;quot;,params=params,json=body)\n        log_request_response(query_server_response,request_body=body,params=params)\n&amp;gt;       assert query_server_response.status_code==excepetd_statuscode\nE       assert 404 == 422\nE        +  where 404 = &amp;lt;Response [404]&amp;gt;.status_code\n\ntest_api.py:147: AssertionError\n\n----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: false,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;150000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 404\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Could not connect to any of [(&amp;#x27;192.168.0.208&amp;#x27;, 18928)]&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 404,\n        &amp;quot;errorCode&amp;quot;: &amp;quot;404-A&amp;quot;\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[skip true]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[skip true]&#34;, &#34;duration&#34;: &#34;69 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[skip true]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;69 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: true,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Adding Query Server Details Skipped by User&amp;quot;,\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n&#34;}], &#34;test_api.py::Testarchive::test_query_server[add_spark]&#34;: [{&#34;extras&#34;: [], &#34;result&#34;: &#34;Passed&#34;, &#34;testId&#34;: &#34;test_api.py::Testarchive::test_query_server[add_spark]&#34;, &#34;duration&#34;: &#34;95 ms&#34;, &#34;resultsTableRow&#34;: [&#34;&lt;td class=\&#34;col-result\&#34;&gt;Passed&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-testId\&#34;&gt;test_api.py::Testarchive::test_query_server[add_spark]&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-duration\&#34;&gt;95 ms&lt;/td&gt;&#34;, &#34;&lt;td class=\&#34;col-links\&#34;&gt;&lt;/td&gt;&#34;], &#34;log&#34;: &#34;----------------------------- Captured stdout call -----------------------------\n\n===== REQUEST =====\nParams:\n{\n    &amp;quot;catalogType&amp;quot;: &amp;quot;spark&amp;quot;,\n    &amp;quot;skip&amp;quot;: false,\n    &amp;quot;ssl&amp;quot;: false\n}\nBody:\n{\n    &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n    &amp;quot;databaseName&amp;quot;: &amp;quot;databaseName&amp;quot;,\n    &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n    &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n    &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n    &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n}\n\n===== RESPONSE =====\nStatus Code: 200\nBody:\n{\n    &amp;quot;detail&amp;quot;: {\n        &amp;quot;message&amp;quot;: &amp;quot;Data Added Successfully&amp;quot;,\n        &amp;quot;data&amp;quot;: [\n            {\n                &amp;quot;queryServerName&amp;quot;: &amp;quot;Server208&amp;quot;,\n                &amp;quot;databaseName&amp;quot;: null,\n                &amp;quot;host&amp;quot;: &amp;quot;192.168.0.208&amp;quot;,\n                &amp;quot;port&amp;quot;: &amp;quot;10000&amp;quot;,\n                &amp;quot;username&amp;quot;: &amp;quot;anything&amp;quot;,\n                &amp;quot;psswrd&amp;quot;: &amp;quot;anything&amp;quot;\n            }\n        ],\n        &amp;quot;statusCode&amp;quot;: 200,\n        &amp;quot;errorCode&amp;quot;: null\n    }\n}\n--------------------------- Captured stdout teardown ---------------------------\nend .............\n&#34;}]}, &#34;renderCollapsed&#34;: [&#34;passed&#34;], &#34;initialSort&#34;: &#34;result&#34;, &#34;title&#34;: &#34;reports_25-04-03_14-03-50.html&#34;}"></div>
+    <script>
+      (function(){function r(e,n,t){function o(i,f){if(!n[i]){if(!e[i]){var c="function"==typeof require&&require;if(!f&&c)return c(i,!0);if(u)return u(i,!0);var a=new Error("Cannot find module '"+i+"'");throw a.code="MODULE_NOT_FOUND",a}var p=n[i]={exports:{}};e[i][0].call(p.exports,function(r){var n=e[i][1][r];return o(n||r)},p,p.exports,r,e,n,t)}return n[i].exports}for(var u="function"==typeof require&&require,i=0;i<t.length;i++)o(t[i]);return o}return r})()({1:[function(require,module,exports){
+const { getCollapsedCategory, setCollapsedIds } = require('./storage.js')
+
+class DataManager {
+    setManager(data) {
+        const collapsedCategories = [...getCollapsedCategory(data.renderCollapsed)]
+        const collapsedIds = []
+        const tests = Object.values(data.tests).flat().map((test, index) => {
+            const collapsed = collapsedCategories.includes(test.result.toLowerCase())
+            const id = `test_${index}`
+            if (collapsed) {
+                collapsedIds.push(id)
+            }
+            return {
+                ...test,
+                id,
+                collapsed,
+            }
+        })
+        const dataBlob = { ...data, tests }
+        this.data = { ...dataBlob }
+        this.renderData = { ...dataBlob }
+        setCollapsedIds(collapsedIds)
+    }
+
+    get allData() {
+        return { ...this.data }
+    }
+
+    resetRender() {
+        this.renderData = { ...this.data }
+    }
+
+    setRender(data) {
+        this.renderData.tests = [...data]
+    }
+
+    toggleCollapsedItem(id) {
+        this.renderData.tests = this.renderData.tests.map((test) =>
+            test.id === id ? { ...test, collapsed: !test.collapsed } : test,
+        )
+    }
+
+    set allCollapsed(collapsed) {
+        this.renderData = { ...this.renderData, tests: [...this.renderData.tests.map((test) => (
+            { ...test, collapsed }
+        ))] }
+    }
+
+    get testSubset() {
+        return [...this.renderData.tests]
+    }
+
+    get environment() {
+        return this.renderData.environment
+    }
+
+    get initialSort() {
+        return this.data.initialSort
+    }
+}
+
+module.exports = {
+    manager: new DataManager(),
+}
+
+},{"./storage.js":8}],2:[function(require,module,exports){
+const mediaViewer = require('./mediaviewer.js')
+const templateEnvRow = document.getElementById('template_environment_row')
+const templateResult = document.getElementById('template_results-table__tbody')
+
+function htmlToElements(html) {
+    const temp = document.createElement('template')
+    temp.innerHTML = html
+    return temp.content.childNodes
+}
+
+const find = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return elem.querySelector(selector)
+}
+
+const findAll = (selector, elem) => {
+    if (!elem) {
+        elem = document
+    }
+    return [...elem.querySelectorAll(selector)]
+}
+
+const dom = {
+    getStaticRow: (key, value) => {
+        const envRow = templateEnvRow.content.cloneNode(true)
+        const isObj = typeof value === 'object' && value !== null
+        const values = isObj ? Object.keys(value).map((k) => `${k}: ${value[k]}`) : null
+
+        const valuesElement = htmlToElements(
+            values ? `<ul>${values.map((val) => `<li>${val}</li>`).join('')}<ul>` : `<div>${value}</div>`)[0]
+        const td = findAll('td', envRow)
+        td[0].textContent = key
+        td[1].appendChild(valuesElement)
+
+        return envRow
+    },
+    getResultTBody: ({ testId, id, log, extras, resultsTableRow, tableHtml, result, collapsed }) => {
+        const resultBody = templateResult.content.cloneNode(true)
+        resultBody.querySelector('tbody').classList.add(result.toLowerCase())
+        resultBody.querySelector('tbody').id = testId
+        resultBody.querySelector('.collapsible').dataset.id = id
+
+        resultsTableRow.forEach((html) => {
+            const t = document.createElement('template')
+            t.innerHTML = html
+            resultBody.querySelector('.collapsible').appendChild(t.content)
+        })
+
+        if (log) {
+            // Wrap lines starting with "E" with span.error to color those lines red
+            const wrappedLog = log.replace(/^E.*$/gm, (match) => `<span class="error">${match}</span>`)
+            resultBody.querySelector('.log').innerHTML = wrappedLog
+        } else {
+            resultBody.querySelector('.log').remove()
+        }
+
+        if (collapsed) {
+            resultBody.querySelector('.collapsible > td')?.classList.add('collapsed')
+            resultBody.querySelector('.extras-row').classList.add('hidden')
+        } else {
+            resultBody.querySelector('.collapsible > td')?.classList.remove('collapsed')
+        }
+
+        const media = []
+        extras?.forEach(({ name, format_type, content }) => {
+            if (['image', 'video'].includes(format_type)) {
+                media.push({ path: content, name, format_type })
+            }
+
+            if (format_type === 'html') {
+                resultBody.querySelector('.extraHTML').insertAdjacentHTML('beforeend', `<div>${content}</div>`)
+            }
+        })
+        mediaViewer.setup(resultBody, media)
+
+        // Add custom html from the pytest_html_results_table_html hook
+        tableHtml?.forEach((item) => {
+            resultBody.querySelector('td[class="extra"]').insertAdjacentHTML('beforeend', item)
+        })
+
+        return resultBody
+    },
+}
+
+module.exports = {
+    dom,
+    htmlToElements,
+    find,
+    findAll,
+}
+
+},{"./mediaviewer.js":6}],3:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const storageModule = require('./storage.js')
+
+const getFilteredSubSet = (filter) =>
+    manager.allData.tests.filter(({ result }) => filter.includes(result.toLowerCase()))
+
+const doInitFilter = () => {
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+}
+
+const doFilter = (type, show) => {
+    if (show) {
+        storageModule.showCategory(type)
+    } else {
+        storageModule.hideCategory(type)
+    }
+
+    const currentFilter = storageModule.getVisible()
+    const filteredSubset = getFilteredSubSet(currentFilter)
+    manager.setRender(filteredSubset)
+
+    const sortColumn = storageModule.getSort()
+    doSort(sortColumn, true)
+}
+
+module.exports = {
+    doFilter,
+    doInitFilter,
+}
+
+},{"./datamanager.js":1,"./sort.js":7,"./storage.js":8}],4:[function(require,module,exports){
+const { redraw, bindEvents, renderStatic } = require('./main.js')
+const { doInitFilter } = require('./filter.js')
+const { doInitSort } = require('./sort.js')
+const { manager } = require('./datamanager.js')
+const data = JSON.parse(document.getElementById('data-container').dataset.jsonblob)
+
+function init() {
+    manager.setManager(data)
+    doInitFilter()
+    doInitSort()
+    renderStatic()
+    redraw()
+    bindEvents()
+}
+
+init()
+
+},{"./datamanager.js":1,"./filter.js":3,"./main.js":5,"./sort.js":7}],5:[function(require,module,exports){
+const { dom, find, findAll } = require('./dom.js')
+const { manager } = require('./datamanager.js')
+const { doSort } = require('./sort.js')
+const { doFilter } = require('./filter.js')
+const {
+    getVisible,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    getSortDirection,
+    possibleFilters,
+} = require('./storage.js')
+
+const removeChildren = (node) => {
+    while (node.firstChild) {
+        node.removeChild(node.firstChild)
+    }
+}
+
+const renderStatic = () => {
+    const renderEnvironmentTable = () => {
+        const environment = manager.environment
+        const rows = Object.keys(environment).map((key) => dom.getStaticRow(key, environment[key]))
+        const table = document.getElementById('environment')
+        removeChildren(table)
+        rows.forEach((row) => table.appendChild(row))
+    }
+    renderEnvironmentTable()
+}
+
+const addItemToggleListener = (elem) => {
+    elem.addEventListener('click', ({ target }) => {
+        const id = target.parentElement.dataset.id
+        manager.toggleCollapsedItem(id)
+
+        const collapsedIds = getCollapsedIds()
+        if (collapsedIds.includes(id)) {
+            const updated = collapsedIds.filter((item) => item !== id)
+            setCollapsedIds(updated)
+        } else {
+            collapsedIds.push(id)
+            setCollapsedIds(collapsedIds)
+        }
+        redraw()
+    })
+}
+
+const renderContent = (tests) => {
+    const sortAttr = getSort(manager.initialSort)
+    const sortAsc = JSON.parse(getSortDirection())
+    const rows = tests.map(dom.getResultTBody)
+    const table = document.getElementById('results-table')
+    const tableHeader = document.getElementById('results-table-head')
+
+    const newTable = document.createElement('table')
+    newTable.id = 'results-table'
+
+    // remove all sorting classes and set the relevant
+    findAll('.sortable', tableHeader).forEach((elem) => elem.classList.remove('asc', 'desc'))
+    tableHeader.querySelector(`.sortable[data-column-type="${sortAttr}"]`)?.classList.add(sortAsc ? 'desc' : 'asc')
+    newTable.appendChild(tableHeader)
+
+    if (!rows.length) {
+        const emptyTable = document.getElementById('template_results-table__body--empty').content.cloneNode(true)
+        newTable.appendChild(emptyTable)
+    } else {
+        rows.forEach((row) => {
+            if (!!row) {
+                findAll('.collapsible td:not(.col-links', row).forEach(addItemToggleListener)
+                find('.logexpander', row).addEventListener('click',
+                    (evt) => evt.target.parentNode.classList.toggle('expanded'),
+                )
+                newTable.appendChild(row)
+            }
+        })
+    }
+
+    table.replaceWith(newTable)
+}
+
+const renderDerived = () => {
+    const currentFilter = getVisible()
+    possibleFilters.forEach((result) => {
+        const input = document.querySelector(`input[data-test-result="${result}"]`)
+        input.checked = currentFilter.includes(result)
+    })
+}
+
+const bindEvents = () => {
+    const filterColumn = (evt) => {
+        const { target: element } = evt
+        const { testResult } = element.dataset
+
+        doFilter(testResult, element.checked)
+        const collapsedIds = getCollapsedIds()
+        const updated = manager.renderData.tests.map((test) => {
+            return {
+                ...test,
+                collapsed: collapsedIds.includes(test.id),
+            }
+        })
+        manager.setRender(updated)
+        redraw()
+    }
+
+    const header = document.getElementById('environment-header')
+    header.addEventListener('click', () => {
+        const table = document.getElementById('environment')
+        table.classList.toggle('hidden')
+        header.classList.toggle('collapsed')
+    })
+
+    findAll('input[name="filter_checkbox"]').forEach((elem) => {
+        elem.addEventListener('click', filterColumn)
+    })
+
+    findAll('.sortable').forEach((elem) => {
+        elem.addEventListener('click', (evt) => {
+            const { target: element } = evt
+            const { columnType } = element.dataset
+            doSort(columnType)
+            redraw()
+        })
+    })
+
+    document.getElementById('show_all_details').addEventListener('click', () => {
+        manager.allCollapsed = false
+        setCollapsedIds([])
+        redraw()
+    })
+    document.getElementById('hide_all_details').addEventListener('click', () => {
+        manager.allCollapsed = true
+        const allIds = manager.renderData.tests.map((test) => test.id)
+        setCollapsedIds(allIds)
+        redraw()
+    })
+}
+
+const redraw = () => {
+    const { testSubset } = manager
+
+    renderContent(testSubset)
+    renderDerived()
+}
+
+module.exports = {
+    redraw,
+    bindEvents,
+    renderStatic,
+}
+
+},{"./datamanager.js":1,"./dom.js":2,"./filter.js":3,"./sort.js":7,"./storage.js":8}],6:[function(require,module,exports){
+class MediaViewer {
+    constructor(assets) {
+        this.assets = assets
+        this.index = 0
+    }
+
+    nextActive() {
+        this.index = this.index === this.assets.length - 1 ? 0 : this.index + 1
+        return [this.activeFile, this.index]
+    }
+
+    prevActive() {
+        this.index = this.index === 0 ? this.assets.length - 1 : this.index -1
+        return [this.activeFile, this.index]
+    }
+
+    get currentIndex() {
+        return this.index
+    }
+
+    get activeFile() {
+        return this.assets[this.index]
+    }
+}
+
+
+const setup = (resultBody, assets) => {
+    if (!assets.length) {
+        resultBody.querySelector('.media').classList.add('hidden')
+        return
+    }
+
+    const mediaViewer = new MediaViewer(assets)
+    const container = resultBody.querySelector('.media-container')
+    const leftArrow = resultBody.querySelector('.media-container__nav--left')
+    const rightArrow = resultBody.querySelector('.media-container__nav--right')
+    const mediaName = resultBody.querySelector('.media__name')
+    const counter = resultBody.querySelector('.media__counter')
+    const imageEl = resultBody.querySelector('img')
+    const sourceEl = resultBody.querySelector('source')
+    const videoEl = resultBody.querySelector('video')
+
+    const setImg = (media, index) => {
+        if (media?.format_type === 'image') {
+            imageEl.src = media.path
+
+            imageEl.classList.remove('hidden')
+            videoEl.classList.add('hidden')
+        } else if (media?.format_type === 'video') {
+            sourceEl.src = media.path
+
+            videoEl.classList.remove('hidden')
+            imageEl.classList.add('hidden')
+        }
+
+        mediaName.innerText = media?.name
+        counter.innerText = `${index + 1} / ${assets.length}`
+    }
+    setImg(mediaViewer.activeFile, mediaViewer.currentIndex)
+
+    const moveLeft = () => {
+        const [media, index] = mediaViewer.prevActive()
+        setImg(media, index)
+    }
+    const doRight = () => {
+        const [media, index] = mediaViewer.nextActive()
+        setImg(media, index)
+    }
+    const openImg = () => {
+        window.open(mediaViewer.activeFile.path, '_blank')
+    }
+    if (assets.length === 1) {
+        container.classList.add('media-container--fullscreen')
+    } else {
+        leftArrow.addEventListener('click', moveLeft)
+        rightArrow.addEventListener('click', doRight)
+    }
+    imageEl.addEventListener('click', openImg)
+}
+
+module.exports = {
+    setup,
+}
+
+},{}],7:[function(require,module,exports){
+const { manager } = require('./datamanager.js')
+const storageModule = require('./storage.js')
+
+const genericSort = (list, key, ascending, customOrder) => {
+    let sorted
+    if (customOrder) {
+        sorted = list.sort((a, b) => {
+            const aValue = a.result.toLowerCase()
+            const bValue = b.result.toLowerCase()
+
+            const aIndex = customOrder.findIndex((item) => item.toLowerCase() === aValue)
+            const bIndex = customOrder.findIndex((item) => item.toLowerCase() === bValue)
+
+            // Compare the indices to determine the sort order
+            return aIndex - bIndex
+        })
+    } else {
+        sorted = list.sort((a, b) => a[key] === b[key] ? 0 : a[key] > b[key] ? 1 : -1)
+    }
+
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const durationSort = (list, ascending) => {
+    const parseDuration = (duration) => {
+        if (duration.includes(':')) {
+            // If it's in the format "HH:mm:ss"
+            const [hours, minutes, seconds] = duration.split(':').map(Number)
+            return (hours * 3600 + minutes * 60 + seconds) * 1000
+        } else {
+            // If it's in the format "nnn ms"
+            return parseInt(duration)
+        }
+    }
+    const sorted = list.sort((a, b) => parseDuration(a['duration']) - parseDuration(b['duration']))
+    if (ascending) {
+        sorted.reverse()
+    }
+    return sorted
+}
+
+const doInitSort = () => {
+    const type = storageModule.getSort(manager.initialSort)
+    const ascending = storageModule.getSortDirection()
+    const list = manager.testSubset
+    const initialOrder = ['Error', 'Failed', 'Rerun', 'XFailed', 'XPassed', 'Skipped', 'Passed']
+
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    if (type?.toLowerCase() === 'original') {
+        manager.setRender(list)
+    } else {
+        let sortedList
+        switch (type) {
+        case 'duration':
+            sortedList = durationSort(list, ascending)
+            break
+        case 'result':
+            sortedList = genericSort(list, type, ascending, initialOrder)
+            break
+        default:
+            sortedList = genericSort(list, type, ascending)
+            break
+        }
+        manager.setRender(sortedList)
+    }
+}
+
+const doSort = (type, skipDirection) => {
+    const newSortType = storageModule.getSort(manager.initialSort) !== type
+    const currentAsc = storageModule.getSortDirection()
+    let ascending
+    if (skipDirection) {
+        ascending = currentAsc
+    } else {
+        ascending = newSortType ? false : !currentAsc
+    }
+    storageModule.setSort(type)
+    storageModule.setSortDirection(ascending)
+
+    const list = manager.testSubset
+    const sortedList = type === 'duration' ? durationSort(list, ascending) : genericSort(list, type, ascending)
+    manager.setRender(sortedList)
+}
+
+module.exports = {
+    doInitSort,
+    doSort,
+}
+
+},{"./datamanager.js":1,"./storage.js":8}],8:[function(require,module,exports){
+const possibleFilters = [
+    'passed',
+    'skipped',
+    'failed',
+    'error',
+    'xfailed',
+    'xpassed',
+    'rerun',
+]
+
+const getVisible = () => {
+    const url = new URL(window.location.href)
+    const settings = new URLSearchParams(url.search).get('visible')
+    const lower = (item) => {
+        const lowerItem = item.toLowerCase()
+        if (possibleFilters.includes(lowerItem)) {
+            return lowerItem
+        }
+        return null
+    }
+    return settings === null ?
+        possibleFilters :
+        [...new Set(settings?.split(',').map(lower).filter((item) => item))]
+}
+
+const hideCategory = (categoryToHide) => {
+    const url = new URL(window.location.href)
+    const visibleParams = new URLSearchParams(url.search).get('visible')
+    const currentVisible = visibleParams ? visibleParams.split(',') : [...possibleFilters]
+    const settings = [...new Set(currentVisible)].filter((f) => f !== categoryToHide).join(',')
+
+    url.searchParams.set('visible', settings)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const showCategory = (categoryToShow) => {
+    if (typeof window === 'undefined') {
+        return
+    }
+    const url = new URL(window.location.href)
+    const currentVisible = new URLSearchParams(url.search).get('visible')?.split(',').filter(Boolean) ||
+        [...possibleFilters]
+    const settings = [...new Set([categoryToShow, ...currentVisible])]
+    const noFilter = possibleFilters.length === settings.length || !settings.length
+
+    noFilter ? url.searchParams.delete('visible') : url.searchParams.set('visible', settings.join(','))
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getSort = (initialSort) => {
+    const url = new URL(window.location.href)
+    let sort = new URLSearchParams(url.search).get('sort')
+    if (!sort) {
+        sort = initialSort || 'result'
+    }
+    return sort
+}
+
+const setSort = (type) => {
+    const url = new URL(window.location.href)
+    url.searchParams.set('sort', type)
+    window.history.pushState({}, null, unescape(url.href))
+}
+
+const getCollapsedCategory = (renderCollapsed) => {
+    let categories
+    if (typeof window !== 'undefined') {
+        const url = new URL(window.location.href)
+        const collapsedItems = new URLSearchParams(url.search).get('collapsed')
+        switch (true) {
+        case !renderCollapsed && collapsedItems === null:
+            categories = ['passed']
+            break
+        case collapsedItems?.length === 0 || /^["']{2}$/.test(collapsedItems):
+            categories = []
+            break
+        case /^all$/.test(collapsedItems) || collapsedItems === null && /^all$/.test(renderCollapsed):
+            categories = [...possibleFilters]
+            break
+        default:
+            categories = collapsedItems?.split(',').map((item) => item.toLowerCase()) || renderCollapsed
+            break
+        }
+    } else {
+        categories = []
+    }
+    return categories
+}
+
+const getSortDirection = () => JSON.parse(sessionStorage.getItem('sortAsc')) || false
+const setSortDirection = (ascending) => sessionStorage.setItem('sortAsc', ascending)
+
+const getCollapsedIds = () => JSON.parse(sessionStorage.getItem('collapsedIds')) || []
+const setCollapsedIds = (list) => sessionStorage.setItem('collapsedIds', JSON.stringify(list))
+
+module.exports = {
+    getVisible,
+    hideCategory,
+    showCategory,
+    getCollapsedIds,
+    setCollapsedIds,
+    getSort,
+    setSort,
+    getSortDirection,
+    setSortDirection,
+    getCollapsedCategory,
+    possibleFilters,
+}
+
+},{}]},{},[4]);
+    </script>
+  </footer>
+</html>
