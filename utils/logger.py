@@ -5,7 +5,7 @@ import logging
 logger = logging.getLogger(__name__)
 logging.basicConfig(level=logging.INFO, format="%(asctime)s - %(levelname)s - %(message)s")
 
-def log_request_response(response, request_body=None):
+def log_request_response(response, request_body=None,params=None):
     """
     Logs the API request (if available) and response in a readable JSON format.
 
@@ -17,6 +17,9 @@ def log_request_response(response, request_body=None):
     request_log = ""
     if request_body is not None:
         request_log = f"\nBody:\n{json.dumps(request_body, indent=4)}"
+
+    if params is not None:
+        request_log += f"\nParams:\n{json.dumps(params, indent=4)}"
 
     # Handle response body formatting
     try:
@@ -31,6 +34,9 @@ def log_request_response(response, request_body=None):
     # Print for pytest reports
     print("\n===== REQUEST =====")
     # print(f"URL: {url}")
+    if params is not None:
+        print(f"Params:\n{json.dumps(params, indent=4)}")
+
     if request_body is not None:
         print(f"Body:\n{json.dumps(request_body, indent=4)}")
 
